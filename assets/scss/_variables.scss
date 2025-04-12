@@ -1,0 +1,104 @@
+// Кольори з макету Figma (MacBook Air - 6)
+$primary: #0240CF;         // Primary blue
+$dark-blue: #001737;       // Dark blue (almost black)
+$success: #54FF8A;         // Green
+$success-light: #90FFB3;   // Light green
+$white: #FFFFFF;           // White
+
+$primary-light: #69C7FF;      // Світло-блакитний
+$primary-dark: #0076BC;       // Темно-блакитний
+$primary-hover: #0240CF;
+
+$secondary: #5D5FEF;          // Темно-сірий (основний текст)
+$secondary-light: #707070;    // Світло-сірий (вторинний текст)
+
+$accent: #FFC107;             // Акцентний жовтий 
+$error: #F44336;              // Червоний (помилки)
+$warning: #F2C94C;            // Оранжевий (попередження)
+$danger: #EB5757;
+$info: #2D9CDB;
+
+// Текстові кольори
+$text-primary: $dark-blue;  // Main text color
+$text-secondary: rgba($dark-blue, 0.7);
+$text-muted: rgba($dark-blue, 0.5);
+$text-light: $white;
+$text-disabled: #BDBDBD;      // Відключений текст
+
+// Фонові кольори
+$background-dark: $dark-blue;
+$background-light: $white;
+$background-primary: $primary;
+$background-success: $success;
+$background-success-light: $success-light;
+$background-gray: #F5F5F5;    // Світло-сірий фон
+$background-secondary: #F9F9F9;
+
+// Сірі відтінки
+$gray-100: #F8F9FA;
+$gray-200: #E9ECEF;
+$gray-300: #DEE2E6;
+$gray-400: #CED4DA;
+$gray-500: #ADB5BD;
+$gray-600: #6C757D;
+$gray-700: #495057;
+$gray-800: #343A40;
+$gray-900: #212529;
+
+// Кордони
+$border-color: rgba($dark-blue, 0.1);        // Колір кордонів
+$border-radius-sm: 4px;
+$border-radius: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+
+// Тіні
+$shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+$shadow: 0 4px 6px rgba(0,0,0,0.1);
+$shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+
+// Інтервали
+$spacer: 1rem;
+$spacer-1: $spacer * 0.25; // 4px
+$spacer-2: $spacer * 0.5;  // 8px
+$spacer-3: $spacer;        // 16px
+$spacer-4: $spacer * 1.5;  // 24px
+$spacer-5: $spacer * 3;    // 48px
+
+// Точки розриву
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+$desktop-large: 1200px;
+
+// Контейнер
+$container-max-width: 1200px;
+$container-padding: 0 15px;
+
+// Типографіка
+$font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+$font-family-accent: 'Unbounded', cursive;
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * 0.875;
+$font-size-lg: $font-size-base * 1.25;
+$font-size-xl: $font-size-base * 1.5;
+$font-size-2xl: $font-size-base * 2;
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 1.75;
+
+// Переходи
+$transition-base: all 0.2s ease-in-out;
+$transition-slow: all 0.3s ease-in-out;
+$transition-fast: all 0.1s ease-in-out;
+
+// Button states
+$button-hover: darken($primary, 5%);
+$button-pressed: darken($primary, 10%);
+$button-disabled: rgba($primary, 0.5); 
